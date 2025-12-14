@@ -7,5 +7,92 @@
 ✦ card__icon-button — для кнопки, оборачивающей иконку
 ✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
 ✦ button__text — для обозначения текстового элемента внутри кнопки
-
 */
+
+.heart-core {
+  fill: transparent;
+  transition: fill 0.3s ease 0.03s;
+}
+
+.heart-body {
+  fill: transparent;
+  transition: fill 0.3s ease 0.03s;
+}
+
+.heart-sparks {
+  fill: transparent;
+  transition: fill 0.3s ease 0.03s;
+}
+
+
+.card__icon-button:hover .like-icon:not(.is-liked) .heart-core {
+  fill: black;
+  transition: fill 0.3s ease 0.03s;
+}
+
+.card__icon-button:hover .like-icon:not(.is-liked) .heart-body {
+  fill: black;
+  transition: fill 0.3s ease 0.05s;
+}
+
+
+.card__icon-button:active .heart-core {
+  fill: red;
+  transition: fill 0.3s ease;
+}
+
+.card__icon-button:active .heart-body {
+  fill: red;
+  transition: fill 0.3s ease 0.05s;
+}
+
+.is-liked .heart-core {
+  fill: red;
+  transition: fill 0.3s ease;
+}
+
+.is-liked .heart-body {
+  fill: red;
+  transition: fill 0.3s ease 0.05s;
+}
+
+.is-liked .heart-contour {
+  fill: red;
+  transition: fill 0.3s linear 0.06s;
+}
+
+@keyframes boom {
+  0% {
+    fill: transparent;
+  }
+
+  50% {
+    fill: #f00;
+  }
+
+  100% {
+    fill: transparent;
+  }
+}
+
+.is-liked .heart-sparks {
+  animation: boom 0.3s ease-in 0.3s;
+}
+
+@keyframes zoom-like {
+  0% {
+    scale: 1;
+  }
+
+  50% {
+    scale: 1.25;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+.is-liked {
+  animation: zoom-like 0.3s ease-in 0.1s;
+}
