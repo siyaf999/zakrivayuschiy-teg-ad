@@ -1,5 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-
 :root {
-  --border: 2px solid black;
+  --main-font: "Inter", sans-serif;
+  --main-text-font-weight: 400;
+  --main-font-size: 18px;
+  --title-font-weight: 700;
+  --accent-font: "PressStart2P", sans-serif;
+  --border-settings: 2px #000 solid;
+  --shadow-color: #fff;
+  --bg-color: #fff;
+  --font-size-button: 14px;
+  --contour-color: #000;
+  --animation-fill-color: #ff0000;
+  --core-color: #fff;
+  --duration-of-animation: 0.3s;
 }

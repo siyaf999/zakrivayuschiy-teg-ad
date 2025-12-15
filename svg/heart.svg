@@ -1,22 +1,14 @@
-<svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6 0H3V3H6V0Z" fill="black"/>
-<path d="M9 0H6V3H9V0Z" fill="black"/>
-<path d="M3 3H0V6H3V3Z" fill="black"/>
-<path d="M3 6H0V9H3V6Z" fill="black"/>
-<path d="M3 9H0V12H3V9Z" fill="black"/>
-<path d="M12 0H9V3H12V0Z" fill="black"/>
-<path d="M6 12H3V15H6V12Z" fill="black"/>
-<path d="M9 15H6V18H9V15Z" fill="black"/>
-<path d="M12 18H9V21H12V18Z" fill="black"/>
-<path d="M21 0H24V3H21V0Z" fill="black"/>
-<path d="M18 0H21V3H18V0Z" fill="black"/>
-<path d="M24 3H27V6H24V3Z" fill="black"/>
-<path d="M24 6H27V9H24V6Z" fill="black"/>
-<path d="M24 9H27V12H24V9Z" fill="black"/>
-<path d="M15 0H18V3H15V0Z" fill="black"/>
-<path d="M21 12H24V15H21V12Z" fill="black"/>
-<path d="M18 15H21V18H18V15Z" fill="black"/>
-<path d="M15 18H18V21H15V18Z" fill="black"/>
-<path d="M15 3H12V6H15V3Z" fill="black"/>
-<path d="M15 21H12V24H15V21Z" fill="black"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36">
+  <symbol id='contur'>
+    <path  d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"/>
+  </symbol>
+  <symbol id='main_body'>
+    <path  d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"/>
+  </symbol>
+  <symbol id='core'>
+    <path  d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"/>
+  </symbol>
+  <symbol id='sparks'>
+    <path  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"/>
+  </symbol>
 </svg>
